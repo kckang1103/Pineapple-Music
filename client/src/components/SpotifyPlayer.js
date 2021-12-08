@@ -16,7 +16,7 @@ var SpotifyWebApi = require('spotify-web-api-node');
 var spotifyApi = new SpotifyWebApi({
   clientId : '0fbe30c6e814404e8324aa3838a7f322',
   clientSecret: 'e414b612d1ff45dd9ba6643e3161bdff',
-  redirectUri: 'localhost:3000/Pineapple-Music'
+  redirectUri: 'pineapple-music.netlify.app/Pineapple-Music'
 });
 
 const auth = getAuth(); // Authorization component

@@ -47,7 +47,7 @@ app.post("/refresh", (req, res) => {
   const refreshToken = req.body.refreshToken
   const currentUser = req.body.currentUser
   const spotifyApi = new SpotifyWebApi({
-    redirectUri: 'localhost:3000/Pineapple-Music',
+    redirectUri: 'pineapple-music.netlify.app/Pineapple-Music',
     clientId: '477666821b8941c4bd163b4ff55ed9af',
     clientSecret: '5a9f7c25c73a46ca958cf138c64f1297',
     refreshToken,
@@ -74,7 +74,7 @@ app.post("/login", (req, res) => {
   const currentUser = req.body.currentUser
   console.log(code)
   const spotifyApi = new SpotifyWebApi({
-    redirectUri: 'http://localhost:3000/Pineapple-Music',
+    redirectUri: 'http://pineapple-music.netlify.app/Pineapple-Music',
     clientId: '477666821b8941c4bd163b4ff55ed9af',
     clientSecret: '5a9f7c25c73a46ca958cf138c64f1297',
   })

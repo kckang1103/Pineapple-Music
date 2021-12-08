@@ -7,7 +7,7 @@ const CLIENT_ID = "b85b37966e894d9cb8eb8d776047f000";
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
 
 const SPACE_DELIMITER = "%20";
-const REDIRECT_URL_AFTER_LOGIN = "http://localhost:3000/Pineapple-Music"; //CHANGE LATER
+const REDIRECT_URL_AFTER_LOGIN = "http://pineapple-music.netlify.app/Pineapple-Music"; //CHANGE LATER
 const SCOPES = ["user-read-currently-playing", "user-read-playback-state"];
 const SCOPES_URL_PARAM = SCOPES.join(SPACE_DELIMITER);
 
