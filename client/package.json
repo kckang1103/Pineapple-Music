@@ -1,6 +1,6 @@
 {
   "name": "pineapple-music",
-  "homepage": "http://S-Tarr.github.io/Pineapple-Music",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
